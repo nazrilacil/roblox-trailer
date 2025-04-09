@@ -1,0 +1,45 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#trailer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.intro {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.intro img{
+    width: 150px;
+    height: 150px;
+}
+.intro button {
+    border: none;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    font-weight: 800;
+    margin-top: 20px;
+    width: auto;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.intro button:hover{
+    background-color: red;
+}
